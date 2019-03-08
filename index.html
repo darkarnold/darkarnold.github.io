@@ -1,157 +1,205 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title> Personal Professional Profile</title>
-  </head>
-  <body>
-    <section>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="utf-8">
+  <title> Personal Professional Profile</title>
+</head>
+
+<body>
+  <div id="container">
+
+
+    <div id="welcome-section">
       <h1>ARNOLD NDIWALANA</h1>
-      <p>
-      <img src="picture.png" alt="my profile picture "/>
-      </p>
-
-      <form class="" action="personal.html" method="post">
-        <fieldset>
-          <legend>Personal Information</legend>
-          <label for="fname">
-            First Name:
-            <input type="text" name="firstname"  id="fname"value="">
-          </label>
-          <br/>
-          <br/>
-          <label for="lname">
-            Last Name:
-            <input type="text" name="lastname" id="lname"value="">
-          </label>
-          <br/>
-          <br/>
-          <label for="dob">
-            Date of Birth:
-            <input type="date" name="dateofbirth"id="dob" value="">
-          </label>
-          <br/>
-          <br/>
-          <label for="m">
-            Gender:
-            <input type="radio" name="gender" value="M" checked>Male
-          </label>
-          <label for="f">
-            <input type="radio" name="gender" value="F">Female
-          </label>
-          <br/>
-          <br/>
-          <label for="pob">
-            Place of Birth:
-            <input type="text" name="placeofbirth" id="pob" value="">
-          </label>
-
-        </fieldset>
-        <br/>
-        <fieldset>
-          <legend>Contact Information</legend>
-          <label for="phone">
-            Telephone Number:
-            <input type="tel" name="phonenumber" id="phone"value="">
-          </label>
-          <br/>
-          <br/>
-          <label for="mail">
-            Email Address:
-            <input type="email" name="email"id="mail" value="">
-          </label>
-          <br/>
-          <br/>
-          <label for="">
-            Address:
-            <input type="text" name="residential" value="">
-          </label>
-        </fieldset>
-        <br/>
-        <br/>
-        <fieldset>
-          <legend>Education Background</legend>
-          <table border="1">
-            <thead>
-              <th>School</th>
-              <th>Year Attended</th>
-              <th>Award</th>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Kyambogo College School</td>
-                <td> 2009-2012</td>
-                <td>Uganda Certificate of Education</td>
-              </tr>
-              <tr>
-                <td>Kyambogo College School</td>
-                <td>2013-2014</td>
-                <td>Uganda Advanced Certificate of Education</td>
-              </tr>
-              <tr>
-                <td>International University of East Africa</td>
-                <td>2015-2017</td>
-                <td>Diploma in Computer Science</td>
-              </tr>
-              <tr>
-                <td>Makerere University</td>
-                <td>2018 to date</td>
-                <td>Bachelors in Information Systems and Technology</td>
-              </tr>
-            </tbody>
-
-          </table>
-        </fieldset>
-        <br/>
-        <br/>
-        <fieldset>
-          <legend>Employment History</legend>
-          <table border="1">
-            <thead>
-              <th>Place of Employment</th>
-              <th>Role</th>
-              <th>Duration</th>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Brands Made To Last</td>
-                <td>Volunteer</td>
-                <td>1 month</td>
-              </tr>
-              <tr>
-                <td>Kyambogo College School</td>
-                <td>Science club General Secretary</td>
-                <td>1 year</td>
-              </tr>
-            </tbody>
-          </table>
-        </fieldset>
-        <br/>
-        <br/>
-        <fieldset>
-          <legend>Skills</legend>
-          <p class="page-header">1 is good, 10 is bad </p>
-          <ol>
-            <li>
-              <p>How good are you at speaking at public events?</p>
-           <div class="chart-scale">
-             <button class="btn btn-scale btn-scale-asc-1">1</button>
-             <button class="btn btn-scale btn-scale-asc-2">2</button>
-             <button class="btn btn-scale btn-scale-asc-3">3</button>
-             <button class="btn btn-scale btn-scale-asc-4">4</button>
-             <button class="btn btn-scale btn-scale-asc-5">5</button>
-             <button class="btn btn-scale btn-scale-asc-6">6</button>
-             <button class="btn btn-scale btn-scale-asc-7">7</button>
-             <button class="btn btn-scale btn-scale-asc-8">8</button>
-             <button class="btn btn-scale btn-scale-asc-9">9</button>
-             <button class="btn btn-scale btn-scale-asc-10">10</button>
+    </div>
 
 
-            </li>
+    <div id="navbar">
+      <ul>
+        <li>
+          <a href="#personal-info">Personal</a>
+          <a href="#contact-info">Contact</a>
+          <a href="#education-info">Education</a>
+          <a href="#employment-info">Employment</a>
+          <a href="#skill-info">Skills</a>
+        </li>
+      </ul>
+    </div>
+
+
+    <figure>
+      <img src="picture.png" alt="my profile picture " />
+    </figure>
+
+
+    <div id="content">
+
+
+
+        <h3 id="personal-info">Personal Information</h3>
+
+        <p>
+          <strong>First Name:</strong>
+          Arnold
+
+        </p>
+
+        <br />
+
+          <p>
+
+            <strong>Last Name:</strong>
+            Ndiwalana
+          </p>
+
+           <br />
+
+
+          <p>
+            <strong>Date of Birth:</strong>
+            23 July 1995
+          </p>
+
+        <br />
+
+        <p>
+          <strong>Gender:</strong>
+          Male
+        </p>
+
+        <br />
+
+
+
+          <p>
+            <strong>Place of Birth:</strong>
+            Kampala, Uganda
+          </p>
+          <br />
+
+
+
+
+
+
+        <h3 id="contact-info">Contact Information</h3>
+
+          <p>
+            <strong>Telephone Number:</strong>
+            +256701830071
+          </p>
+
+          <br />
+
+
+          <p>
+            <strong>Email Address:</strong>
+            arnoldndiwalana@gmail.com
+          </p>
+
+        <br />
+
+
+          <p>
+            <strong>Address:</strong>
+            Seeta, Mukono
+          </p>
+
+        <br />
+
+        <h3 id="education-info">Education Background</h3>
+
+        <table border="1">
+          <thead>
+            <th>School</th>
+            <th>Year Attended</th>
+            <th>Award</th>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Kyambogo College School</td>
+              <td> 2009-2012</td>
+              <td>Uganda Certificate of Education</td>
+            </tr>
+            <tr>
+              <td>Kyambogo College School</td>
+              <td>2013-2014</td>
+              <td>Uganda Advanced Certificate of Education</td>
+            </tr>
+            <tr>
+              <td>International University of East Africa</td>
+              <td>2015-2017</td>
+              <td>Diploma in Computer Science</td>
+            </tr>
+            <tr>
+              <td>Makerere University</td>
+              <td>2018 to date</td>
+              <td>Bachelors in Information Systems and Technology</td>
+            </tr>
+          </tbody>
+
+        </table>
+
+
+        <br />
+
+
+
+
+
+        <h3 id="employment-info">Employment History</h3>
+        <table border="1">
+          <thead>
+            <th>Place of Employment</th>
+            <th>Role</th>
+            <th>Duration</th>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Brands Made To Last</td>
+              <td>Volunteer</td>
+              <td>1 month</td>
+            </tr>
+            <tr>
+              <td>Kyambogo College School</td>
+              <td>Science club General Secretary</td>
+              <td>1 year</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <br />
+
+
+
+
+        <h3 id="skill-info">Skills</h3>
+        <p class="page-header">1 is good, 10 is bad </p>
+        <ol>
+          <li>
+            <p>How good are you at speaking at public events?</p>
+            <div class="chart-scale">
+              <button class="btn btn-scale btn-scale-asc-1">1</button>
+              <button class="btn btn-scale btn-scale-asc-2">2</button>
+              <button class="btn btn-scale btn-scale-asc-3">3</button>
+              <button class="btn btn-scale btn-scale-asc-4">4</button>
+              <button class="btn btn-scale btn-scale-asc-5">5</button>
+              <button class="btn btn-scale btn-scale-asc-6">6</button>
+              <button class="btn btn-scale btn-scale-asc-7">7</button>
+              <button class="btn btn-scale btn-scale-asc-8">8</button>
+              <button class="btn btn-scale btn-scale-asc-9">9</button>
+              <button class="btn btn-scale btn-scale-asc-10">10</button>
+
+
+
+
+          </li>
 
           <li>
             <p class="page-header"> How skilled are you at writing?</p>
-            <div class="chart-scale">
+
             <button class="btn btn-scale btn-scale-desc-1">1</button>
             <button class="btn btn-scale btn-scale-desc-2">2</button>
             <button class="btn btn-scale btn-scale-desc-3">3</button>
@@ -162,63 +210,87 @@
             <button class="btn btn-scale btn-scale-desc-8">8</button>
             <button class="btn btn-scale btn-scale-desc-9">9</button>
             <button class="btn btn-scale btn-scale-desc-10">10</button>
-</li>
-        <li>
-          <p class="page-header"> How skilled are you at programming in html?</p>
-        <div class="chart-scale">
-        <button class="btn btn-scale btn-scale-desc-1">1</button>
-        <button class="btn btn-scale btn-scale-desc-2">2</button>
-        <button class="btn btn-scale btn-scale-desc-3">3</button>
-        <button class="btn btn-scale btn-scale-desc-4">4</button>
-        <button class="btn btn-scale btn-scale-desc-5">5</button>
-        <button class="btn btn-scale btn-scale-desc-6">6</button>
-        <button class="btn btn-scale btn-scale-desc-7">7</button>
-        <button class="btn btn-scale btn-scale-desc-8">8</button>
-        <button class="btn btn-scale btn-scale-desc-9">9</button>
-        <button class="btn btn-scale btn-scale-desc-10">10</button>
+          </li>
+          <li>
+            <p class="page-header"> How skilled are you at programming in html?</p>
+            <button class="btn btn-scale btn-scale-desc-1">1</button>
+            <button class="btn btn-scale btn-scale-desc-2">2</button>
+            <button class="btn btn-scale btn-scale-desc-3">3</button>
+            <button class="btn btn-scale btn-scale-desc-4">4</button>
+            <button class="btn btn-scale btn-scale-desc-5">5</button>
+            <button class="btn btn-scale btn-scale-desc-6">6</button>
+            <button class="btn btn-scale btn-scale-desc-7">7</button>
+            <button class="btn btn-scale btn-scale-desc-8">8</button>
+            <button class="btn btn-scale btn-scale-desc-9">9</button>
+            <button class="btn btn-scale btn-scale-desc-10">10</button>
 
 
-        </li>
-        <li>
-          <p class="page-header"> How skilled are you at playing chess?</p>
-          <div class="chart-scale">
-          <button class="btn btn-scale btn-scale-desc-1">1</button>
-          <button class="btn btn-scale btn-scale-desc-2">2</button>
-          <button class="btn btn-scale btn-scale-desc-3">3</button>
-          <button class="btn btn-scale btn-scale-desc-4">4</button>
-          <button class="btn btn-scale btn-scale-desc-5">5</button>
-          <button class="btn btn-scale btn-scale-desc-6">6</button>
-          <button class="btn btn-scale btn-scale-desc-7">7</button>
-          <button class="btn btn-scale btn-scale-desc-8">8</button>
-          <button class="btn btn-scale btn-scale-desc-9">9</button>
-          <button class="btn btn-scale btn-scale-desc-10">10</button>
+          </li>
 
-        </li>
-        <li>
-          <p class="page-header"> How skilled are you at playing FIFA?</p>
-          <div class="chart-scale">
-          <button class="btn btn-scale btn-scale-desc-1">1</button>
-          <button class="btn btn-scale btn-scale-desc-2">2</button>
-          <button class="btn btn-scale btn-scale-desc-3">3</button>
-          <button class="btn btn-scale btn-scale-desc-4">4</button>
-          <button class="btn btn-scale btn-scale-desc-5">5</button>
-          <button class="btn btn-scale btn-scale-desc-6">6</button>
-          <button class="btn btn-scale btn-scale-desc-7">7</button>
-          <button class="btn btn-scale btn-scale-desc-8">8</button>
-          <button class="btn btn-scale btn-scale-desc-9">9</button>
-          <button class="btn btn-scale btn-scale-desc-10">10</button>
+          <li>
+            <p class="page-header"> How skilled are you at playing chess?</p>
 
-        </li>
+            <button class="btn btn-scale btn-scale-desc-1">1</button>
+            <button class="btn btn-scale btn-scale-desc-2">2</button>
+            <button class="btn btn-scale btn-scale-desc-3">3</button>
+            <button class="btn btn-scale btn-scale-desc-4">4</button>
+            <button class="btn btn-scale btn-scale-desc-5">5</button>
+            <button class="btn btn-scale btn-scale-desc-6">6</button>
+            <button class="btn btn-scale btn-scale-desc-7">7</button>
+            <button class="btn btn-scale btn-scale-desc-8">8</button>
+            <button class="btn btn-scale btn-scale-desc-9">9</button>
+            <button class="btn btn-scale btn-scale-desc-10">10</button>
 
+          </li>
 
-          </ol>
+          <li>
+            <p class="page-header"> How skilled are you at playing FIFA?</p>
 
-        </fieldset>
+            <button class="btn btn-scale btn-scale-desc-1">1</button>
+            <button class="btn btn-scale btn-scale-desc-2">2</button>
+            <button class="btn btn-scale btn-scale-desc-3">3</button>
+            <button class="btn btn-scale btn-scale-desc-4">4</button>
+            <button class="btn btn-scale btn-scale-desc-5">5</button>
+            <button class="btn btn-scale btn-scale-desc-6">6</button>
+            <button class="btn btn-scale btn-scale-desc-7">7</button>
+            <button class="btn btn-scale btn-scale-desc-8">8</button>
+            <button class="btn btn-scale btn-scale-desc-9">9</button>
+            <button class="btn btn-scale btn-scale-desc-10">10</button>
+
+          </li>
 
 
-      </form>
+        </ol>
 
-    </section>
 
-  </body>
+
+    </div>
+
+
+
+
+
+
+  </div>
+
+  <div id="profile-link">
+    <ul>
+      <li>
+        <a href="https://github.com/darkarnold/Outbox-EDU-Html" target="_blank">Outbox-EDU Repo</a>
+      </li>
+    </ul>
+    Copyright &copy;2019 Arnold Ndiwalana
+
+
+  </div>
+
+
+
+
+
+
+  </div>
+
+</body>
+
 </html>
