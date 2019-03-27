@@ -22,7 +22,7 @@ p{
   text-align: center;
 }
 
-#container{
+/*#container{
   display: grid;
   grid-gap: 20px;
 grid-template-areas: "welcome-section"
@@ -41,22 +41,17 @@ background-color:grey;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
 }
-
+*/
  a:hover{
   text-decoration: none;
 }
 
- img{
+ /*img{
 
-border-radius: 50%;
-
-}
-.center{
-  display: block;
- margin-left: auto;
- margin-right: auto;
+border-radius: 12%;
 
 }
+*/
 
 
 th {

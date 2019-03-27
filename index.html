@@ -2,180 +2,251 @@
 <html lang="en" dir="ltr">
 
 <head>
-  <link rel="stylesheet" type="text/css" href="style.css">
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-  <script
-    defer
-    src="https://use.fontawesome.com/releases/v5.7.2/js/all.js"
-    integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP"
-    crossorigin="anonymous"
-  ></script>
+  <!-- Bootstrap CSS CDN ---->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+
+  <!--- Custom CSS -->
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <!-- Font Awesome icons -->
+  <script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js" integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP" crossorigin="anonymous"></script>
 
   <title> Personal Professional Profile</title>
 </head>
 
 <body>
-  <div id="container">
+  <div class="container">
+    <div class="page-header">
+      <div id="welcome-section">
+        <h1>ARNOLD NDIWALANA</h1>
+      </div>
 
-    <div id="welcome-section">
-      <h1>ARNOLD NDIWALANA</h1>
     </div>
 
 
-    <div id="navbar">
-      <ul>
-        <li> <a href="#personal-info">Personal</a> </li>
-          <li> <a href="#contact-info">Contact</a> </li>
-          <li> <a href="#education-info">Education</a> </li>
-        <li> <a href="#employment-info">Employment</a> </li>
-           <li> <a href="#skill-info">Skills</a> </li>
+    <nav class="navbar navbar-default navbar-static-top ">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-6">
+            <ul class="nav navbar-nav">
 
-      </ul>
-    </div>
+              <li> <a href="#personal-info">Personal</a> </li>
+              <li> <a href="#contact-info">Contact</a> </li>
+              <li> <a href="#education-info">Education</a> </li>
+              <li> <a href="#employment-info">Employment</a> </li>
+              <li> <a href="#skill-info">Skills</a> </li>
+
+            </ul>
+          </div>
+
+        </div>
+
+      </div>
+
+    </nav>
 
 
-    <figure>
-      <img src="picture.png" alt="my profile picture " class="center" />
-    </figure>
 
 
     <div id="content">
+      <figure>
+        <img src="picture.png" alt="my profile picture " class= "img-rounded" />
+      </figure>
 
-      <div class="personal">
+<!-- Personal Information -->
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 id="personal-info" class="panel-title">Personal Information</h3>
+        </div>
+        <div class="panel-body">
+          <div class="personal">
+            <p>
+              <strong>First Name:</strong>
+              Arnold
 
-        <h3 id="personal-info">Personal Information</h3>
+            </p>
+            <p>
 
-        <p>
-          <strong>First Name:</strong>
-          Arnold
+              <strong>Last Name:</strong>
+              Ndiwalana
+            </p>
 
-        </p>
-        <p>
+            <p>
+              <strong>Date of Birth:</strong>
+              23 July 1995
+            </p>
 
-            <strong>Last Name:</strong>
-            Ndiwalana
-          </p>
+            <p>
+              <strong>Gender:</strong>
+              Male
+            </p>
 
-          <p>
-            <strong>Date of Birth:</strong>
-            23 July 1995
-          </p>
-
-          <p>
-          <strong>Gender:</strong>
-          Male
-        </p>
-
-        <p>
-            <strong>Place of Birth:</strong>
-            Kampala, Uganda
-          </p>
-
-
-      </div>
-
-      <div class="contact">
-
-        <h3 id="contact-info">Contact Information</h3>
-
-        <p>
-          <strong>Telephone Number:</strong>
-          +256701830071
-        </p>
-
-        <p>
-          <strong>Email Address:</strong>
-          arnoldndiwalana@gmail.com
-        </p>
-
-        <p>
-          <strong>Address:</strong>
-          Seeta, Mukono
-        </p>
+            <p>
+              <strong>Place of Birth:</strong>
+              Kampala, Uganda
+            </p>
 
 
-
-
-      </div>
-
-
-
-      <!-- education starts here -->
-      <div class="education">
-        <h3 id="education-info">Education Background</h3>
-
-      <table border="1">
-        <thead>
-          <th>School</th>
-          <th>Year Attended</th>
-          <th>Award</th>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Kyambogo College School</td>
-            <td> 2009-2012</td>
-            <td>Uganda Certificate of Education</td>
-          </tr>
-          <tr>
-            <td>Kyambogo College School</td>
-            <td>2013-2014</td>
-            <td>Uganda Advanced Certificate of Education</td>
-          </tr>
-          <tr>
-            <td>International University of East Africa</td>
-            <td>2015-2017</td>
-            <td>Diploma in Computer Science</td>
-          </tr>
-          <tr>
-            <td>Makerere University</td>
-            <td>2018 to date</td>
-            <td>Bachelors in Information Systems and Technology</td>
-          </tr>
-        </tbody>
-
-      </table>
-
-
-
-
-
-      </div>
-        <!-- Employment  starts here -->
-        <div class="employment">
-          <h3 id="employment-info">Employment History</h3>
-          <table border="1">
-            <thead>
-              <th>Place of Employment</th>
-              <th>Role</th>
-              <th>Duration</th>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Brands Made To Last</td>
-                <td>Volunteer</td>
-                <td>1 month</td>
-              </tr>
-              <tr>
-                <td>Kyambogo College School</td>
-                <td>Science club General Secretary</td>
-                <td>1 year</td>
-              </tr>
-            </tbody>
-          </table>
+          </div>
 
 
 
         </div>
+      </div>
 
-        <!-- Skills start here -->
-<div class="skill">
-  <h3 id="skill-info">Skills</h3>
-  <p>Networking  Rating: 8/10</p>
-  <p>Great Listener  Rating: 8/10</p>
-  <p>Chess Rating: 5/10</p>
+<!-- Contact Information -->
 
-</div>
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 id="contact-info" class="panel-title">Contact Information</h3>
+        </div>
+        <div class="panel-body">
+          <div class="contact">
+
+
+
+            <p>
+              <strong>Telephone Number:</strong>
+              +256701830071
+            </p>
+
+            <p>
+              <strong>Email Address:</strong>
+              arnoldndiwalana@gmail.com
+            </p>
+
+            <p>
+              <strong>Address:</strong>
+              Seeta, Mukono
+            </p>
+
+
+
+
+          </div>
+
+
+
+        </div>
+      </div>
+
+      <!-- education starts here -->
+      <div class="panel panel-default">
+
+        <div class="panel-heading">
+          <h3 id="education-info" class = "panel-title">Education Background</h3>
+
+          </div>
+
+          <div class="panel-body">
+            <div class="education">
+
+
+              <table class ="table">
+                <thead>
+                  <th>School</th>
+                  <th>Year Attended</th>
+                  <th>Award</th>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Kyambogo College School</td>
+                    <td> 2009-2012</td>
+                    <td>Uganda Certificate of Education</td>
+                  </tr>
+                  <tr>
+                    <td>Kyambogo College School</td>
+                    <td>2013-2014</td>
+                    <td>Uganda Advanced Certificate of Education</td>
+                  </tr>
+                  <tr>
+                    <td>International University of East Africa</td>
+                    <td>2015-2017</td>
+                    <td>Diploma in Computer Science</td>
+                  </tr>
+                  <tr>
+                    <td>Makerere University</td>
+                    <td>2018 to date</td>
+                    <td>Bachelors in Information Systems and Technology</td>
+                  </tr>
+                </tbody>
+
+              </table>
+
+
+
+
+
+            </div>
+
+          </div>
+
+
+
+
+
+
+
+      </div>
+      <!-- Employment  starts here -->
+
+      <div class="panel panel-default">
+        <div class="panel-heading">
+        <h3 id="employment-info" class = "panel-title">Employment History</h3>
+        </div>
+        <div class="panel-body">
+          <div class="employment">
+
+            <table class = "table">
+              <thead>
+                <th>Place of Employment</th>
+                <th>Role</th>
+                <th>Duration</th>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Brands Made To Last</td>
+                  <td>Volunteer</td>
+                  <td>1 month</td>
+                </tr>
+                <tr>
+                  <td>Kyambogo College School</td>
+                  <td>Science club General Secretary</td>
+                  <td>1 year</td>
+                </tr>
+              </tbody>
+            </table>
+
+
+
+          </div>
+
+        </div>
+      </div>
+
+
+      <!-- Skills start here -->
+      <div class="panel panel-default">
+        <div class="panel-heading">
+        <h3 id="skill-info" class = "panel-title">Skills</h3>
+      </div>
+
+        <div class="panel-body">
+          <div class="skill">
+
+            <p>Networking Rating: 8/10</p>
+            <p>Great Listener Rating: 8/10</p>
+            <p>Chess Rating: 5/10</p>
+
+          </div>
+
+        </div>
+        </div>
+      </div>
 
     </div>
 
@@ -189,30 +260,36 @@
 
 
     </div>
-
-<div id="profile-link">
-  <ul>
-    <i class="fab fa-github"></i>
-    <li>
-      <a href="https://github.com/darkarnold" target="_blank"> Github  </a>
-    </li>
-    <i class="fab fa-facebook"></i>
-    <li>
-      <a href="https://www.facebook.com/arnold.ndiwalana" target="_blank">Facebook</a>
-    </li>
-    <i class="fab fa-linkedin"></i>
-    <li>
-      <a href="https://www.linkedin.com/in/arnold-ndiwalana-408a6135/" target="_blank"> LinkedIn</a>
-    </li>
-  </ul>
+<div class="well">
+  <div id="profile-link">
+    <ul>
+      <i class="fab fa-github"></i>
+      <li>
+        <a href="https://github.com/darkarnold" target="_blank"> Github </a>
+      </li>
+      <i class="fab fa-facebook"></i>
+      <li>
+        <a href="https://www.facebook.com/arnold.ndiwalana" target="_blank">Facebook</a>
+      </li>
+      <i class="fab fa-linkedin"></i>
+      <li>
+        <a href="https://www.linkedin.com/in/arnold-ndiwalana-408a6135/" target="_blank"> LinkedIn</a>
+      </li>
+    </ul>
     Copyright &copy;2019 Arnold Ndiwalana
 
 
   </div>
 
+</div>
+
   </div>
+  <!-- jQuery CDN--->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script>
 
-
+  <!-- Latest compiled and minified  Bootstrap JavaScript -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+  <!-- Popper js -->
 </body>
 
 </html>
