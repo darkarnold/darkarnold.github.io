@@ -5,9 +5,10 @@
 
 
 body{
-  background-color: #ccc;
+  /*background-color: #ccc;*/
   margin:30px 50px;
  line-height:1.4;
+ background: linear-gradient(white,#ccc);
 
 
 }
@@ -46,12 +47,12 @@ background-color:grey;
   text-decoration: none;
 }
 
- /*img{
+ img{
 
-border-radius: 12%;
+border-radius: 50%;
 
 }
-*/
+
 
 
 th {
